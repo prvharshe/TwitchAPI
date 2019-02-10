@@ -1,0 +1,45 @@
+<head>
+    <title>Clips Center</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">	
+  </head>
+  
+  <body>
+    <h1 class="page-title"> Clips Center</h1>
+    <form id="clipsform">
+      <table>
+        <tr>
+      <td> 
+        <label for="client-id" class="post_ttl">Client Id</label> 
+      </td>
+      <td width="60%">
+        <input type="text" id="client-id" class="readmore" /> 
+      </td>
+        </tr>   
+        <tr>
+      <td> 
+        <label for="game" class="post_ttl">Game name</label>
+      </td>
+      <td>
+        <input type="text" id="game" class="readmore" >
+      </td>
+        </tr>
+        <tr>
+      <td>
+        <button type = "submit" id="clipsbutton" class="readmore">Get Clips</button>
+      </td>
+        </tr>
+      </table>
+    </form>
+    <div id="game-div">
+      <table>
+        <tr>
+      <td><img id="game-image" width="200" height="144"></td>
+      <td style="width: 40%"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="clips-display"></div>
+  </body>
+  
